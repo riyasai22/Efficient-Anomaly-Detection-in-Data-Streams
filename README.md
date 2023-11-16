@@ -63,8 +63,16 @@ For multivariate datasets like the Household Electric Power Consumption dataset,
 6. Model Update and Online Learning:
 LSTM autoencoders can be updated with new data, allowing for online learning. This feature enables the model to continuously refine its understanding of normal patterns and adapt to changes in the data distribution, enhancing its anomaly detection performance over time.
 
-## Visualtion
+## Visualization
+[1] Anomaly detection using LSTM autoencoders(Static)
 ![image](https://github.com/riyasai22/Efficient-Anomaly-Detection-in-Data-Streams/assets/80235375/447c3a0c-8abd-4a0f-bd5a-7208a8a1081c)
+
+[2] Improvised LSTM autoencoders for Anomaly Detection in Real-time data streams 
+![image](https://github.com/riyasai22/Efficient-Anomaly-Detection-in-Data-Streams/assets/80235375/f2325ded-0e66-4b16-82fd-46b7197e3132)
+
+- Inital 15% data from the stream is taken for intialization of the model
+- Data Stream is generated using the CustomDS function
+- LSTM model runs and detects anomalies on the remaining data stream
 
 
 ## Experiment Findings:
