@@ -76,10 +76,17 @@ LSTM autoencoders can be updated with new data, allowing for online learning. Th
 
 
 ## Experiment Findings:
-Based on experiments conducted on the Household Electric Power Consumption dataset, the LSTM autoencoder model showcased its ability to efficiently identify anomalies amidst seasonal variations and concept drift. Its multivariate capabilities allowed it to capture complex patterns within the data, enabling robust anomaly detection across various scenarios present in long-term electrical consumption records. In conclusion, employing LSTM autoencoders for anomaly detection in data streams presents a powerful solution due to their ability to handle temporal dependencies, adapt to changes, process high-velocity data efficiently, and detect anomalies in multivariate datasets with complex patterns.
+Based on experiments conducted on the Household Electric Power Consumption dataset, the LSTM autoencoder model showcased its ability to efficiently identify anomalies amidst seasonal variations and concept drift. Its multivariate capabilities allowed it to capture complex patterns within the data, enabling robust anomaly detection across various scenarios present in long-term electrical consumption records. In conclusion, employing LSTM autoencoders for anomaly detection in data streams presents a powerful solution due to their ability to handle temporal dependencies, adapt to changes, process high-velocity data efficiently, and detect anomalies in multivariate datasets with complex patterns. 
+[Link to Selected Algorithm : LSTM Autoencoders](https://github.com/riyasai22/Efficient-Anomaly-Detection-in-Data-Streams/blob/main/LSTM_Autoencoders_For_Data_Stream_Anomaly_Detection.ipynb)
 
 
+## Other Experiments for Comparitive Analysis - 
+[Link to Initial Experminents ](https://github.com/riyasai22/Efficient-Anomaly-Detection-in-Data-Streams/blob/main/Anomaly_Detection_in_Streaming_Data_Initial_Experiements.ipynb)
 
+
+## Comparison to Models in Initial Experiments
+
+LSTM autoencoders offer distinctive advantages for anomaly detection in data streams compared to other algorithms. Their inherent ability to handle temporal dependencies and capture complex sequential patterns makes them particularly effective in scenarios where anomalies evolve over time, such as concept drift or seasonal variations. Unlike some traditional algorithms like RRCF, LODADetector, HS-Tree, and Spot Detector, LSTM autoencoders excel in learning and modeling intricate temporal relationships within multivariate time series data, enabling them to detect anomalies characterized by subtle deviations or changes in complex patterns. Furthermore, LSTM autoencoders facilitate real-time processing and adaptation to evolving data distributions without the need for complete model reconfiguration, a trait essential for dynamic environments where detecting anomalies promptly is critical. Their capacity for continuous learning through online updates further enhances their ability to refine anomaly detection over time, making them highly suitable for high-volume, high-velocity data streams with changing characteristics and evolving anomalies.
 
 
 
